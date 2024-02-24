@@ -20,5 +20,10 @@ int main(void) {
 		}
 	}
 
+	/* If the file ends on a word, print a newline */
+	if (isWord) {
+		putchar('\n');
+	}
+
 	return 0;
 }
